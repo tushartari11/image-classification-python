@@ -1,0 +1,20 @@
+# Core dependencies
+torch>=1.9.0
+torchvision>=0.10.0
+opencv-python>=4.5.0
+Pillow>=8.0.0
+numpy>=1.21.0
+
+# Optional but recommended
+pandas>=1.3.0
+matplotlib>=3.4.0
+scikit-learn>=1.0.0
+
+# For GPU acceleration (optional)
+# torch-audio  # if you need audio processing
+# torchvision[video]  # if you need video processing
+
+# Alternative CPU-only torch installation (uncomment if needed):
+# --extra-index-url https://download.pytorch.org/whl/cpu
+# torch==1.9.0+cpu
+# torchvision==0.10.0+cpu
