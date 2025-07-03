@@ -87,3 +87,18 @@ python perfume_classifier.py /path/to/input/directory --confidence 0.8
 **Ensemble Methods:** Combine multiple models for better accuracy
 
 The code is production-ready and handles edge cases well. It will work immediately with basic shape detection, but training the deep learning component will significantly improve accuracy.
+
+# Results after the initial run
+
+```bash
+Summary:
+Total images processed: 18128
+Perfume bottles/boxes detected: 3134
+Detection rate: 17.3%
+```
+
+**Note:**
+These results are not considering the trained dataset
+
+**Work in Progress**
+I am labelling and annotating the images using imagellb and using yolo box binding for perfume and non perfume images classes.
